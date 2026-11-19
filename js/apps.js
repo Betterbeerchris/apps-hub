@@ -1,26 +1,26 @@
 // ============================================================
 //  EDIT YOUR APPS HERE
-//  - flyer: path to the flyer image (drop the real file in assets/flyers/)
+//  - flyer: path to the flyer image in assets/flyers/
 //  - pitch: one-line pitch shown on the card
-//  - link:  the app's live URL ("#" = not live yet, button shows "Coming soon")
+//  - link:  the app's live URL
 // ============================================================
 const APPS = [
   {
     name: "Better Beer",
-    flyer: "assets/flyers/better-beer.svg",
-    pitch: "PLACEHOLDER: A free beer-counter app. Replace with your one-line pitch.",
+    flyer: "assets/flyers/better-beer.jpg",
+    pitch: "Every pour is a game. The free beer counter: earn Foam Points and achievements, and log your water too. 21+.",
     link: "https://betterbeer.grok.me"
   },
   {
     name: "Voxhelion Radio",
-    flyer: "assets/flyers/voxhelion-radio.svg",
-    pitch: "PLACEHOLDER: Replace with your one-line pitch for Voxhelion Radio.",
-    link: "#" // TODO: add the live link
+    flyer: "assets/flyers/voxhelion-radio.jpg",
+    pitch: "AI-run radio broadcasting from the edge of the galaxy, streaming 24/7 with music that's out of this world.",
+    link: "https://voxhelion.grok.me"
   },
   {
     name: "Groovy Greens",
-    flyer: "assets/flyers/groovy-greens.svg",
-    pitch: "PLACEHOLDER: Replace with your one-line pitch for Groovy Greens.",
-    link: "#" // TODO: add the live link
+    flyer: "assets/flyers/groovy-greens.jpg",
+    pitch: "A far-out retro golf trip across five funky worlds. Find your groove, one hole at a time.",
+    link: "https://groovygreens.grok.me"
   }
 ];
