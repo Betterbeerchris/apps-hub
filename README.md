@@ -10,19 +10,19 @@ apps-hub/
 ├── css/styles.css        # all styling
 ├── js/apps.js            # EDIT THIS: app names, flyers, pitches, links
 ├── js/main.js            # renders the cards (no need to edit)
-├── assets/flyers/        # flyer images (placeholders now)
-│   ├── better-beer.svg
-│   ├── voxhelion-radio.svg
-│   └── groovy-greens.svg
+├── assets/flyers/        # official flyer images
+│   ├── better-beer.jpg
+│   ├── voxhelion-radio.jpg
+│   └── groovy-greens.jpg
 ├── .nojekyll             # tells GitHub Pages to serve files as-is
 └── netlify.toml          # Netlify publish settings
 ```
 
 ## Updating an app card
 
-1. Drop the real flyer into `assets/flyers/` (PNG, JPG or SVG; portrait 4:5 looks best).
+1. Drop the real flyer into `assets/flyers/` (PNG, JPG or SVG; portrait 3:4 looks best).
 2. Open `js/apps.js` and change that app's `flyer` path, `pitch` and `link`.
-3. A link of `"#"` shows a grey "Coming soon" button until you add the live URL.
+3. A link of `"#"` shows a grey "Coming soon" button instead of "Open app".
 
 ## Hosting
 
