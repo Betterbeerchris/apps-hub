@@ -29,3 +29,7 @@ apps-hub/
 **GitHub Pages:** go to the repo's Settings, then Pages, choose "Deploy from a branch", pick `main` and `/ (root)`, and save. The site appears at `https://betterbeerchris.github.io/apps-hub/` within a minute or two.
 
 **Netlify:** "Add new site", import this GitHub repo, leave the build command empty and the publish directory as `.`, then deploy.
+
+## Copyright
+
+© 2026 Chris Conzelmann. All rights reserved.
