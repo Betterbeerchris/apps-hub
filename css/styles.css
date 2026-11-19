@@ -31,7 +31,7 @@ main { flex: 1; width: 100%; max-width: 1100px; margin: 0 auto; padding: 0 1.5re
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .app-card:hover { transform: translateY(-6px); box-shadow: 0 14px 32px rgba(0,0,0,0.5); }
-.app-card img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; display: block; background: #222; }
+.app-card img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; display: block; background: #222; }
 .app-card-body { padding: 1.25rem; display: flex; flex-direction: column; gap: 0.75rem; flex: 1; }
 .app-card-body h2 { font-size: 1.3rem; }
 .app-card-body p { color: var(--muted); flex: 1; }
