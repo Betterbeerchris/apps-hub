@@ -22,5 +22,11 @@ const APPS = [
     flyer: "assets/flyers/groovy-greens.jpg",
     pitch: "A far-out retro golf trip across five funky worlds. Find your groove, one hole at a time.",
     link: "https://groovygreens.grok.me"
+  },
+  {
+    name: "TriviX",
+    flyer: "assets/flyers/trivix.jpg",
+    pitch: "The cozy party trivia game. 8 Thanksgiving series with 264 verified questions, solo or 2–5 players.",
+    link: "https://trivix.grok.me"
   }
 ];
